@@ -42,7 +42,7 @@ pipeline {
                         url: 'http://localhost:8081'
                     )
                 ],
-                contextPath: 'my-webapp',
+                contextPath: 'webapp',
                 war: 'target/my-webapp.war'
             }
         }
